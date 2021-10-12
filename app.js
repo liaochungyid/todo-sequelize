@@ -1,7 +1,6 @@
 const express = require('express')
 const exphbs = require('express-handlebars')
 const methodOverride = require('method-override')
-const bcrypt = require('bcryptjs')
 
 if (process.env.NODE_ENV !== 'produciton') {
   require('dotenv').config()
