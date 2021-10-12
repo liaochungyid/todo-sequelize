@@ -7,6 +7,7 @@ if (process.env.NODE_ENV !== 'produciton') {
   require('dotenv').config()
 }
 
+require('./models')
 const routes = require('./routes')
 
 const app = express()
